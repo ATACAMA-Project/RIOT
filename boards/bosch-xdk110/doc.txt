@@ -1,0 +1,18 @@
+/**
+ * @defgroup    boards_bosch-xdk110 Bosch XDK 110
+ * @ingroup     boards
+ * @brief       Support for the Bosch XDK 110 board.
+ *
+ * ### General information
+ *
+ * Some general information about the board
+ *
+ * ### Pinout
+ *
+ * A detailed description of the board pinout (if available)
+ *
+ * ### Flash the board
+ *
+ * Some notes about how to flash the board
+ *
+ */
