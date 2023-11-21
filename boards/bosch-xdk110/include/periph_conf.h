@@ -238,6 +238,10 @@ static const uart_conf_t uart_config[] = {
                 .dev = UART1,
                 .rx_pin = GPIO_PIN(PB, 10),
                 .tx_pin = GPIO_PIN(PB, 9),
+#ifdef MODULE_PERIPH_UART_HW_FC
+                .rts_pin = GPIO_PIN(PB, 2),
+                .cts_pin = GPIO_PIN(PF, 6),
+#endif
                 .loc = UART_ROUTE_LOCATION_LOC2,
                 .cmu = cmuClock_UART1,
                 .irq = UART1_RX_IRQn
