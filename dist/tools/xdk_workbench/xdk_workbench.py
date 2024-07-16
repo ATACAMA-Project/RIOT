@@ -142,6 +142,7 @@ def checksum_matcher(line):
 ser.open()
 send_command(Command.INFO)
 info = wait_for_line(info_matcher)
+print("Board Information: {0}".format(info))
 version = extract_bootloader_version(info)
 bootloader_type = get_bootloader_type_by_version(version)
 binary_size = os.path.getsize(BINARY_PATH)

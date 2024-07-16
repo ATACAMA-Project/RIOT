@@ -1,6 +1,8 @@
 CPU_FAM = efm32gg
 CPU_MODEL = efm32gg390f1024
 
+LINKER_SCRIPT = efm32gg.ld
+
 # Put defined MCU peripherals here (in alphabetical order)
 FEATURES_PROVIDED += periph_adc
 FEATURES_PROVIDED += periph_dac
